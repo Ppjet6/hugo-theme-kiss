@@ -4,7 +4,8 @@
 .textarea,
 embed,
 img,
-object {
+object,
+video {
   max-width: 100%;
 }
 
