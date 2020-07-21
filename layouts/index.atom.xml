@@ -13,7 +13,7 @@
   </author>
   {{- end }}
   <id>{{ .Permalink }}</id>
-  {{ range first 15 .Data.Pages -}}
+  {{ range first 15 .Site.RegularPages -}}
   <entry>
     <title>{{ .Title }}</title>
     <link rel="alternate" href="{{ .Permalink }}"/>
