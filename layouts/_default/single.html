@@ -8,7 +8,8 @@
       {{ end }}
     </div>
     {{if not .Date.IsZero }}<h2 class="subtitle is-6">{{ .Date.Format "January 2, 2006" }}</h2>{{ end }}
-    <h1 class="title">{{ .Title }}</h1>
+    <div class="source-lnk is-3 is-pulled-right"><a href="index.md">Source</a></div>
+    <h1 class="title is-9">{{ .Title }}</h1>
     {{ if and (.Site.Params.Info.adsense) (.Params.adsenseTop) }}
     {{ partial "adsense" . }}
     {{ end }}

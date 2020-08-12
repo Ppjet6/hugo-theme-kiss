@@ -2,3 +2,14 @@ figcaption {
   font-size: 0.85em;
   padding-bottom: 20px;
 }
+
+.source-lnk a {
+  color: #69707a;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.source-lnk a:hover {
+  color: #222324;
+  border-bottom: 1px solid;
+}
